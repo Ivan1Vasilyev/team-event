@@ -1,6 +1,6 @@
 .intro {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    column-gap: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 100%;
 }

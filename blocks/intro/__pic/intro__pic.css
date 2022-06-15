@@ -1,6 +1,8 @@
 .intro__pic {
-    max-width:500px;
-    max-height: 500px;
-    object-fit: contain;
-
+    object-fit: cover;
+    background-position: top 40% left 20%;
+    width: 100%;
+    padding-bottom: 100%;
+    background-image: url(../../../images/intro-image.jpeg);
+    background-repeat: no-repeat;
 }

@@ -1,9 +1,10 @@
 .plans {
   border-color: #f2f2f2;
   display: grid;
-  grid-template: repeat(3, 400px)/repeat(2, 1fr);
+  grid-template: repeat(3, 1fr)/repeat(2, 1fr);
   grid-template-areas:
     "image-forest text-forest"
     "text-mountains image-mountains"
     "image-sea text-sea";
+    font-family: 'Roboto', sans-serif;
 }

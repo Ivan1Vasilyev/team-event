@@ -1,0 +1,9 @@
+.footer__image {
+    min-height: 500px;
+    background-color: rgb(254, 208, 174);
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
