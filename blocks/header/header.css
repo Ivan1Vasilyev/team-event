@@ -1,1 +1,12 @@
-.header {}
+.header {
+    display: flex;
+    width:100%;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 40px 20px;
+    align-items: flex-end;
+    margin: 0;
+
+    font-family: 'Roboto', sans-serif;
+}
