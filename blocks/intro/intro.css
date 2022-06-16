@@ -1,8 +1,9 @@
 .intro {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    height: 100%;
+  font-family: PTSansCaption, Arial, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 100%;
 }
 
 @media screen and (max-width: 685px) {
@@ -10,4 +11,3 @@
     flex-direction: column;
   }
 }
-

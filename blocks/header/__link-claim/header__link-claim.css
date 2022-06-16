@@ -1,0 +1,20 @@
+.header__link-claim {
+    font-size: 13px;
+    line-height: 1.1;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+@media screen and (max-width:685px) {
+    .header__link-claim {
+        position: absolute;
+        right: 20px;
+        top: 50px;
+        color: white;
+        font-weight: 700;
+        background-color: black;
+        border-radius: 5px;
+        padding: 7px;
+    }
+}
