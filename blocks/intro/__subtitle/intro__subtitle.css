@@ -1,5 +1,4 @@
 .intro__subtitle {
-    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 700;
@@ -7,7 +6,6 @@
     letter-spacing: -.3px;
     margin: 0;
     padding: 0 0 20px 40px;
-    text-align: left;
     color: rgb(254, 208, 174);
     word-spacing: 7px;
 }

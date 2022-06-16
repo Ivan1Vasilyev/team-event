@@ -1,8 +1,9 @@
 .intro__pic {
-    object-fit: cover;
-    background-position: top 40% left 20%;
+    /* object-fit: cover;  это чтобы выравнивать картинки, которые вставлены тегом img */
+    background-size: cover; /* вот аналог для бекграунда */
+    /* background-position: top 40% left 20%;  поэтому это теперь не нужно*/
     width: 100%;
     padding-bottom: 100%;
-    background-image: url(../../../images/intro-image.jpeg);
+    background-image: url(../../../images/intro-image-cutted.jpeg);
     background-repeat: no-repeat;
 }
