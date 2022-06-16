@@ -1,1 +1,30 @@
-.plans__paragraph {}
+.plans__paragraph {
+  margin: 18px 0 0 71px;
+  font-size: 13px;
+  line-height: 1.7;
+  max-width: 346px;
+}
+
+@media screen and (max-width: 1140px) {
+  .plans__paragraph {
+    margin-left: 40px;
+  }
+}
+
+@media screen and (max-width: 895px) {
+  .plans__paragraph {
+    margin-left: 20px;
+    font-size: 12px;
+    line-height: 1.4;
+    max-width: 290px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .plans__paragraph {
+    margin-left: 12px;
+    margin-right: 12px;
+    max-width: 400px;
+  }
+}

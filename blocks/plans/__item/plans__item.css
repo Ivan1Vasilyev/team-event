@@ -1,0 +1,18 @@
+.plans__item {
+  box-sizing: border-box;
+  display: grid;
+  grid-template: repeat(2, max-content)/repeat(2, 1fr);
+  grid-template-areas:
+  "image title"
+  "image text";
+}
+
+@media screen and (max-width: 685px) {
+  .plans__item {
+    grid-template: repeat(4, max-content)/1fr;
+    grid-template-areas:
+      "title"
+      "image"
+      "text";
+  }
+}

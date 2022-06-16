@@ -1,0 +1,14 @@
+.plans__item_image-right {
+  grid-template-areas:
+  "title image"
+  "text image";
+}
+
+@media screen and (max-width: 685px) {
+  .plans__item_image-right {
+    grid-template-areas:
+      "title"
+      "image"
+      "text";
+  }
+}

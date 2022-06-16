@@ -1,4 +1,13 @@
 .plans__text {
-    padding: 50px 30% 0 50px;
-    margin: 0;
+  padding-bottom: 20px;
+  grid-area: text;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (max-width: 895px) {
+  .plans__text {
+    padding-bottom: 12px;
+  }
 }
