@@ -4,3 +4,9 @@
   line-height: 1.2;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 895px) {
+  .quotes__title {
+    margin-bottom: 15px;
+  }
+}
