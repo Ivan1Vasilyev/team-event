@@ -4,7 +4,15 @@
     box-sizing: border-box;
     flex-direction: row;
     justify-content: space-between;
-    padding: 35px 40px 20px;
+    padding: 50px 65px 20px;
+}
+
+@media screen and (max-width: 1140px) {
+  .header {
+    padding-left: 35px;
+    padding-right: 35px;
+
+  }
 }
 
 @media screen and (max-width: 895px) {

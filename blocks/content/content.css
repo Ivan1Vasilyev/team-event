@@ -1,1 +1,25 @@
-.content {}
+.content {
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+  align-items: center;
+  row-gap: 120px;
+}
+
+@media screen and (max-width: 1140px) {
+  .content {
+    row-gap: 90px;
+  }
+}
+
+@media screen and (max-width: 895px) {
+  .content {
+    row-gap: 60px;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .content {
+    row-gap: 0;
+  }
+}

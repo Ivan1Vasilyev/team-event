@@ -1,18 +1,18 @@
 .intro__image-wrap {
     width: 50%;
-    padding: 60px 140px 100px;
+    padding: 60px 140px 0;
     box-sizing: border-box;
 }
 
 @media screen and (max-width: 1140px) {
   .intro__image-wrap {
-    padding: 40px 100px 70px;
+    padding: 40px 100px 0;
   }
 }
 
 @media screen and (max-width: 895px) {
   .intro__image-wrap {
-    padding: 20px 50px 45px;
+    padding: 20px 50px 0;
   }
 }
 

@@ -1,0 +1,29 @@
+.text__subtitle {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0;
+  padding: 0 0 30px 65px;
+  color: rgb(254, 205, 167);
+  word-spacing: 7px;
+}
+
+@media screen and (max-width: 1140px) {
+  .text__subtitle {
+    padding-left: 35px;
+  }
+}
+
+@media screen and (max-width: 895px) {
+  .text__subtitle {
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .text__subtitle {
+    padding: 30px 0 15px 12px;
+    font-size: 10px;
+  }
+}
