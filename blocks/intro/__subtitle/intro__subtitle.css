@@ -6,6 +6,19 @@
     letter-spacing: -.3px;
     margin: 0;
     padding: 0 0 20px 40px;
-    color: rgb(254, 208, 174);
+    color: rgb(254, 205, 167);
     word-spacing: 7px;
+}
+
+@media screen and (max-width: 895px) {
+  .intro__subtitle {
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .intro__subtitle {
+    padding-left: 12px;
+    font-size: 10px;
+  }
 }

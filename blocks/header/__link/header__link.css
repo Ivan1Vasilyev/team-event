@@ -1,5 +1,12 @@
 .header__link {
-    text-decoration: none;
-    color: black;
-    font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 685px) {
+  .header__link {
+    font-size: 10px;
+  }
 }

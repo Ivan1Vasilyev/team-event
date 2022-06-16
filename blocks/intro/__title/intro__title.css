@@ -5,3 +5,19 @@
     margin: 0;
     padding: 0 0 0 40px;
 }
+
+@media screen and (max-width: 895px) {
+  .intro__title {
+    padding-left: 20px;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .intro__title {
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 26px;
+    max-width: 460px;
+  }
+}
