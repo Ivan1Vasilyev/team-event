@@ -4,6 +4,7 @@
     text-decoration: none;
     color: black;
     font-weight: 700;
+    transition: .7s;
 }
 
 .header__link-claim:hover {
@@ -26,5 +27,4 @@
     .header__link-claim:hover {
         color: black;
     }
-    
 }

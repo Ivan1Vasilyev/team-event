@@ -4,6 +4,7 @@
   text-decoration: none;
   color: black;
   font-weight: 700;
+  transition: .5s;
 }
 
 .header__link:hover {
