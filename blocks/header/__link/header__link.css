@@ -6,6 +6,12 @@
   font-weight: 700;
 }
 
+.header__link:hover {
+  background-color: rgba(254, 205, 167, 0.5);
+  box-shadow: rgba(254, 205, 167, 0.5) 0px 0px 3px 3px;
+}
+
+
 @media screen and (max-width: 685px) {
   .header__link {
     font-size: 16px;
