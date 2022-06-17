@@ -19,6 +19,6 @@
 @media screen and (max-width: 685px) {
   .intro__image-wrap {
     width: 100%;
-    padding: 0 12px;
+    padding: 0;
   }
 }

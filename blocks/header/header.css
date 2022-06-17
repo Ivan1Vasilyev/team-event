@@ -12,19 +12,18 @@
   .header {
     padding-left: 35px;
     padding-right: 35px;
-
   }
 }
 
 @media screen and (max-width: 895px) {
   .header {
-    padding: 50px 20px 20px;
+    padding: 50px 20px 40px;
   }
 }
 
 @media screen and (max-width: 685px) {
   .header {
-    padding: 20px 20px 20px;
+    padding: 60px 20px 0;
     position: relative;
   }
 }
