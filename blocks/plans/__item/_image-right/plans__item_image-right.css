@@ -8,7 +8,7 @@
   .plans__item_image-right {
     grid-template-areas:
       "title"
-      "image"
-      "text";
+      "text"
+      "image";
   }
 }
